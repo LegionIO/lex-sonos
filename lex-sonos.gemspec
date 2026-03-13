@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'lib/legion/extensions/sonos/version'
 
 Gem::Specification.new do |spec|
@@ -8,14 +10,15 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'LEX::Sonos'
   spec.description   = 'LEX::Sonos'
-  spec.homepage      = 'https://bitbucket.org/legion-io/lex-sonos'
+  spec.homepage      = 'https://github.com/LegionIO/lex-sonos'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.5.0')
+  spec.required_ruby_version = '>= 3.4'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://bitbucket.org/legion-io/lex-sonos'
-  spec.metadata['documentation_uri'] = 'https://legionio.atlassian.net/wiki/spaces/LEX/pages/614957074'
-  spec.metadata['changelog_uri'] = 'https://legionio.atlassian.net/wiki/spaces/LEX/pages/612270167'
-  spec.metadata['bug_tracker_uri'] = 'https://bitbucket.org/legion-io/lex-sonos/issues'
+  spec.metadata['source_code_uri'] = 'https://github.com/LegionIO/lex-sonos'
+  spec.metadata['documentation_uri'] = 'https://github.com/LegionIO/lex-sonos'
+  spec.metadata['changelog_uri'] = 'https://github.com/LegionIO/lex-sonos'
+  spec.metadata['bug_tracker_uri'] = 'https://github.com/LegionIO/lex-sonos/issues'
+  spec.metadata['rubygems_mfa_required'] = 'true'
   spec.require_paths = ['lib']
 end
