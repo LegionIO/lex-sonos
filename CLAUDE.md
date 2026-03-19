@@ -10,6 +10,7 @@ Legion Extension that connects LegionIO to Sonos speakers. Provides the foundati
 
 **GitHub**: https://github.com/LegionIO/lex-sonos
 **License**: MIT
+**Version**: 0.1.0
 
 ## Architecture
 
