@@ -65,7 +65,7 @@ Sonos speakers do not expose a direct HTTP API. This extension targets a local H
 
 ## Development
 
-18 specs.
+18 specs total.
 
 ```bash
 bundle install
